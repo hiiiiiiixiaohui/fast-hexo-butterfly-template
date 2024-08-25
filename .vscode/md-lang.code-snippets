@@ -1,0 +1,208 @@
+{
+	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to jscp": {
+		"prefix": "jscp",
+		"body": [
+			"```javascript",
+			"",
+			"```"
+		],
+		"description": "add a md js scope"
+	},
+	"Print to tscp": {
+		"prefix": "tscp",
+		"body": [
+			"```typescript",
+			"",
+			"```"
+		],
+		"description": "add a md ts scope"
+	},
+	"Print to jsxcp": {
+		"prefix": "jsxcp",
+		"body": [
+			"```Jsx",
+			"",
+			"```"
+		],
+		"description": "add a md jsx scope"
+	},
+	"Print to cscp": {
+		"prefix": "cscp",
+		"body": [
+			"```css",
+			"",
+			"```"
+		],
+		"description": "add a md css scope"
+	},
+	"Print to hmlscp": {
+		"prefix": "hmlscp",
+		"body": [
+			"```html",
+			"",
+			"```"
+		],
+		"description": "add a md html scope"
+	},
+	"Print to shscp": {
+		"prefix": "shscp",
+		"body": [
+			"```shell",
+			"",
+			"```"
+		],
+		"description": "add a md shell scope"
+	},
+	"Print to mdtabs": {
+		"prefix": "mdtabs",
+		"body": [
+			"{% tabs 布局方案, 1 %}",
+			"<!-- tab -->",
+			"<!-- endtab -->",
+			"{% endtabs %}"
+		],
+		"description": "add a md tabs scope"
+	},
+	"Print to mdtab": {
+		"prefix": "mdtab",
+		"body": [
+			"<!-- tab $1 -->",
+			"<!-- endtab -->",
+		],
+		"description": "add a md tab scope"
+	},
+	"Print to h2": {
+		"prefix": "h2",
+		"body": [
+			"**$1**"
+		],
+		"description": "add a md h2 scope"
+	},
+	"Print to mdlabel": {
+		"prefix": "mdlabel",
+		"body": [
+			"{% label $1 $2 %}"
+		],
+		"description": "add a md label scope"
+	},
+	"Print to blockquote": {
+		"prefix": "blockquote",
+		"body": [
+			"> $1"
+		],
+		"description": "add a md blockquote scope"
+	},
+	"Print to contentquote": {
+		"prefix": "ctquote",
+		"body": [
+			"- ``",
+			" ",
+			"- 语法：",
+			" ",
+			"```javascript",
+			" ",
+			"```",
+			" ",
+			"- 参数：",
+			"- 返回值：",
+			"- 异常：",
+			" ",
+			"- 示例：",
+			" ",
+			"```javascript",
+			" ",
+			"```"
+		],
+		"description": "add a md contentquote scope"
+	},
+	"Print to versionlist": {
+		"prefix": "tbversionlist",
+		"body": [
+			"- 兼容性：",
+			" ",
+			"{% tabs versions %}",
+			"<!-- tab @fa-solid fa-desktop-->",
+			"{% note orange 'fab fa-chrome' simple %}",
+			"**Chrome：** <i class='fa fa-check'></i> ***Version>=1***",
+			"{% endnote %}",
+			" ",
+			"{% note blue 'fab fa-edge' simple %}",
+			"**Edge：** <i class='fa fa-check'></i> ***Version>=12***",
+			"{% endnote %}",
+			" ",
+			"{% note orange 'fab fa-firefox-browser' simple %}",
+			"**Firefox：** <i class='fa fa-check'></i> ***Version>=1***",
+			"{% endnote %}",
+			" ",
+			"{% note red 'fab fa-opera' simple %}",
+			"**Opera：** <i class='fa fa-check'></i> ***Version>=4***",
+			"{% endnote %}",
+			" ",
+			"{% note purple 'fab fa-safari' simple %}",
+			"**Safari：** <i class='fa fa-check'></i> ***Version>=1***",
+			"{% endnote %}",
+			"<!-- endtab -->",
+			" ",
+			"<!-- tab @fa-solid fa-mobile-->",
+			"{% note pink 'fab fa-chrome' simple %}",
+			"**Chrome Android：** <i class='fa fa-check'></i> ***Version>=18***",
+			"{% endnote %}",
+			" ",
+			"{% note pink 'fab fa-firefox-browser' simple %}",
+			"**Firefox for Android：** <i class='fa fa-check'></i> ***Version>=4***",
+			"{% endnote %}",
+			" ",
+			"{% note pink 'fab fa-opera' simple %}",
+			"**Opera Android：** <i class='fa fa-check'></i> ***Version>=10.1***",
+			"{% endnote %}",
+			" ",
+			"{% note purple 'fab fa-safari' simple %}",
+			"**Safari on iOS：** <i class='fa fa-check'></i> ***Version>=1***",
+			"{% endnote %}",
+			" ",
+			"{% note blue 'fab fa-edge-legacy' simple %}",
+			"**Samsung Internet：** <i class='fa fa-check'></i> ***Version>=1.0***",
+			"{% endnote %}",
+			" ",
+			"{% note pink 'fab fa-android' simple %}",
+			"**WebView Android：** <i class='fa fa-check'></i> ***Version>=4.4***",
+			"{% endnote %}",
+			"<!-- endtab -->",
+			" ",
+			"<!-- tab @fa-solid fa-server-->",
+			"{% note orange 'fa-solid fa-dragon' simple %}",
+			"**Deno：** <i class='fa fa-check'></i> ***Version>=1.0***",
+			"{% endnote %}",
+			" ",
+			"{% note green 'fab fa-node-js' simple %}",
+			"**Node.js：** <i class='fa fa-check'></i> ***Version>=0.10.0***",
+			"{% endnote %}",
+			"<!-- endtab -->",
+			" ",
+			"{% endtabs %}",
+			" "
+		],
+		"description": "add a md versionlist scope"
+	},
+	"Print to hideblock": {
+		"prefix": "hideblock",
+		"body": [
+			"{% hideBlock $1 %}",
+			"$2",
+			"{% endhideBlock %}"
+		],
+		"description": "add a md hideblock scope"
+	},
+	"Print to label": {
+		"prefix": "mdlabel",
+		"body": [
+			"{% label $0 $1 %}"
+		],
+		"description": "add a md label scope"
+	},
+}
